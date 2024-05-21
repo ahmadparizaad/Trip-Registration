@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="https://imgs.search.brave.com/MOOSDnqHkg9JkBtHy-R86Iue-8aLqGsh6QPX_pQvkro/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/Y29sbGVnZWJhdGNo/LmNvbS9zdGF0aWMv/Y2xnLWdhbGxlcnkv/c2luaGdhZC1jb2xs/ZWdlLW9mLWVuZ2lu/ZWVyaW5nLXB1bmUt/MjE2MDA2LmpwZw" alt="">
+    <div class="container">
+        <h3>Welcome To SCOE College Trip</h3>
+        <p><em>Fill this form to confirm your participation</em></p>
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
+            <textarea name="desc" id="desc" cols="30" rows="5" placeholder="Enter other information"></textarea>
+            <div class="bttn">
+            <button class="btn">Submit</button>
+            <button class="btn" type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
